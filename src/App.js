@@ -3,27 +3,35 @@ import "./App.css";
 import ClassCounter from "./components/ClassCounter";
 import ClassCounterOne from "./components/ClassCounterOne";
 import ClassMouse from "./components/ClassMouse";
+import ClassTimer from "./components/ClassTimer";
 import ComponentA2 from "./components/ComponentA2";
 import ComponentB2 from "./components/ComponentB2";
 import ComponentC from "./components/ComponentC";
 import ComponentC2 from "./components/ComponentC2";
 import Counter from "./components/Counter";
 import CounterOne from "./components/CounterOne";
+import CounterOneA from "./components/CounterOneA";
 import CounterThree from "./components/CounterThree";
 import CounterTwo from "./components/CounterTwo";
+import CounterTwoA from "./components/CounterTwoA";
 import DataFetching from "./components/DataFetching";
 import DataFetchingOne from "./components/DataFetchingOne";
 import DataFetchingTwo from "./components/DataFetchingTwo";
+import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
+import FocusInput from "./components/FocusInput";
 import HookCounterFour from "./components/HookCounterFour";
 import HookCounterOne from "./components/HookCounterOne";
 import HookCounterThree from "./components/HookCounterThree";
 import HookCounterTwo from "./components/HookCounterTwo";
 import HookMouse from "./components/HookMouse";
 import HooksCounter from "./components/HooksCounter";
+import HookTimer from "./components/HookTimer";
 import IntervalClassCounter from "./components/IntervalClassCounter";
 import IntervalHookCounter from "./components/IntervalHookCounter";
 import MouseContainer from "./components/MouseContainer";
 import ParentComponent from "./components/ParentComponent";
+import UserForm from "./components/UserForm";
 
 export const CountContext = React.createContext();
 
@@ -50,7 +58,15 @@ function App() {
       value={{ countState: count, countDispatch: dispatch }}
     >
       <div className="App">
-        <Counter />
+        <UserForm />
+        {/* <CounterOneA /> */}
+        {/* <CounterTwoA /> */}
+        {/* <DocTitleOne /> */}
+        {/* <DocTitleTwo /> */}
+        {/* <FocusInput /> */}
+        {/* <ClassTimer /> */}
+        {/* <HookTimer /> */}
+        {/* <Counter /> */}
         {/* <ParentComponent /> */}
         {/* <DataFetchingOne /> */}
         {/* <DataFetchingTwo /> */}
